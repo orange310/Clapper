@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #c8caca;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 84%;
+  margin: auto;
+  height: 8vh;
+  font-size: 2rem;
+}
+
+header .logo {
+  font-size: 1.2rem;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+header nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+header nav ul li a:hover {
+  color: red;
+}
+
+header .cart {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+header .cart a:hover img {
+  -webkit-transform: translateX(15px) rotate(-15deg);
+          transform: translateX(15px) rotate(-15deg);
+}
+
+header .cart img {
+  width: 25px;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 92vh;
+  color: #932D2D;
+}
+
+.landing .intro {
+  margin-top: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.landing .intro h1 {
+  font-size: 8rem;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.landing .intro p {
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+.landing .intro .btns {
+  margin: 40px 0;
+}
+
+.landing .intro #shop {
+  background-color: #932D2D;
+  border: none;
+  padding: 1.3rem;
+  color: #e7e5e5;
+  margin-right: 20px;
+  width: 130px;
+  height: 45px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.landing .intro #learn {
+  border: 1px solid black;
+  padding: 1.3rem;
+  width: 130px;
+  height: 45px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.landing .display {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.landing .display img {
+  width: 90%;
+}
+
+.showcase {
+  background-color: #343333;
+  height: 100vh;
+  color: #dddbdb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 8%;
+}
+
+.showcase .info {
+  font-size: 2rem;
+}
+
+.showcase .info h1 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.showcase .info h6 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.showcase .info p {
+  margin-bottom: 1.5rem;
+}
+
+.showcase .info button {
+  background-color: #932D2D;
+  border: none;
+  padding: 1.2rem;
+  color: #e7e5e5;
+  margin-right: 20px;
+  width: 130px;
+  height: 45px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.showcase .info button:hover {
+  cursor: pointer;
+  color: #2e2d2e;
+}
+
+.showcase .show {
+  background-color: rgba(248, 245, 245, 0.1);
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+.showcase .show img {
+  width: 70%;
+}
+
+.showcase .show .colors {
+  background-color: azure;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 30px;
+  background-color: rgba(248, 245, 245, 0);
+}
+
+.showcase .show .colors div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.showcase .show .colors .c1 {
+  background-color: brown;
+}
+
+.showcase .show .colors .c2 {
+  background-color: #1a9234;
+}
+
+.showcase .show .colors .c3 {
+  background-color: #4c30b1;
+}
+
+.contact {
+  background: -webkit-gradient(linear, right top, left top, from(#424242), to(#b1afaf));
+  background: linear-gradient(to left, #424242, #b1afaf);
+  height: 100vh;
+  padding: 0 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-heading {
+  height: 100vh;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-heading h1 {
+  font-size: 8rem;
+  color: #932D2D;
+  font-weight: 700;
+}
+
+.contact .form {
+  width: 50%;
+  font-size: 3rem;
+}
+
+.contact .form p {
+  color: #f3f3f3;
+}
+
+.contact .form input {
+  height: 3rem;
+}
+
+.contact .form input, .contact .form textarea {
+  width: 100%;
+  border: 2px solid #932D2D;
+  background-color: #E5E5E5;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.contact .form button {
+  background-color: #932D2D;
+  font-size: 2rem;
+  padding: 1rem;
+  border: none;
+  color: #f3f3f3;
+}
+/*# sourceMappingURL=styles.css.map */

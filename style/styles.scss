@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(200, 202, 202);
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import './header';
+@import './landing';
+@import './showcase';
+@import './contact';
