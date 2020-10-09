@@ -1,0 +1,58 @@
+$color : #932D2D;
+
+.landing{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    justify-content: space-between;
+    height: 92vh;
+    color: $color;
+    .intro{
+        margin-top: 200px;
+        flex:1;
+        h1{
+            font-size: 8rem;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+        p{
+            font-size: 4rem;
+            margin: 10px 0;
+
+        }
+        .btns{
+            margin: 40px 0;
+        }
+        #shop{
+          background-color: $color;
+          border: none;
+          padding: 1.3rem;
+          color: rgb(231, 229, 229);
+          margin-right: 20px;
+          width: 130px;
+          height: 45px;
+          font-size: 1.8rem;
+          font-weight: 600;
+        }
+        #learn{
+          border: 1px solid black;
+          padding: 1.3rem;
+          width: 130px;
+          height: 45px;
+          font-size: 1.8rem;
+          font-weight: 600;
+
+
+        }
+    }
+    .display{ 
+      flex: 1;
+      align-self: center;
+      display: flex;
+      justify-content: flex-end;
+        img{
+       width: 90%;
+
+        }
+}
+}

@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84%;
+    margin: auto;
+    height: 8vh;
+    font-size: 2rem;
+    .logo{
+        font-size: 1.2rem;
+        flex: 2;
+    }
+    nav{
+     flex: 1;
+     ul{
+         display: flex;
+         justify-content: space-between;
+         list-style: none;
+         li a{
+             text-decoration: none;
+             color: #000;
+             font-size: 1.5rem;
+             &:hover{
+                 color: red;
+             }
+         }
+        }
+
+    }
+    .cart{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        transition: 1s ease;
+        a:hover img{
+            transform: translateX(15px) rotate(-15deg);
+        }
+       img{
+        width: 25px;
+        transition: 1s ease;
+
+      }
+}
+}
